@@ -1,0 +1,39 @@
+.header {
+    
+    background-color: rgb(219, 215, 214);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width:0, auto;
+    
+    
+    
+    
+    
+
+}
+.left a{
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+.right a{
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+@media (min-width: 576px) and (max-width: 991px) { 
+    .header {
+    
+        background-color: rgb(219, 215, 214);
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        width:100%;
+                
+        
+    
+    }
+    
+
+}
